@@ -78,18 +78,22 @@ stock market app/
 
 # ⚙️ Installation & Setup
 1) Clone the repository:
+
 git clone https://github.com/dvinzzzz/stock-forecasting-app.git
 cd stock-forecasting-app
 
 2) Create and activate a virtual environment
-   Windows:
+
+    Windows:
    python -m venv venv
    venv\Scripts\activate
    
 3) Install dependencies
+
    pip install -r requirements.txt
    
 4) Run the app
+
    streamlit run app.py
    
 # 🖼️ Screenshots
