@@ -17,11 +17,11 @@ The app fetches live historical data using Yahoo Finance, performs preprocessing
 
 **Stocks included:**
 
-1)Apple (AAPL)
+1) Apple (AAPL)
 
-2)Tesla (TSLA)
+2) Tesla (TSLA)
 
-3)JPMorgan (JPM)
+3) JPMorgan (JPM)
 
 **Currency:** All prices are displayed in USD.
 
@@ -87,7 +87,7 @@ stock market app/
 
 
 
-# ⚙️ Installation & Setup
+### ⚙️ Installation & Setup
 **1) Clone the repository:**
  
  ```bash
@@ -107,9 +107,15 @@ stock market app/
 
    ```bash
    pip install -r requirements.txt
-    ```
+
+```
 
 **4) Run the app:**
+ ```bash
+streamlit run app.py
+
+```
+
 
 
   
@@ -124,11 +130,22 @@ stock market app/
 
 
 # 📊 Models Used
-ARIMA & SARIMA: Statistical time-series models for short-term forecasting.
+**ARIMA & SARIMA:** Statistical time-series models for short-term forecasting.
 
-Prophet: Robust model by Meta for seasonality & trend detection.
+**Prophet:** Robust model by Meta for seasonality & trend detection.
 
-LSTM: Deep learning model for sequence prediction with memory.
+**LSTM:** Deep learning model for sequence prediction with memory.
+
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1) Fork the repo
+
+2) Create a new branch
+
+3) Submit a Pull Request
 
 # 📄 License
 This project is licensed under the MIT License.
