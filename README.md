@@ -102,13 +102,14 @@ stock market app/
 
     Windows:
    python -m venv venv
+
    venv\Scripts\activate
    
-3) Install dependencies
+4) Install dependencies
 
    pip install -r requirements.txt
    
-4) Run the app
+5) Run the app
 
    streamlit run app.py
    
