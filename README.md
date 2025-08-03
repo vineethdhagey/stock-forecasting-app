@@ -61,7 +61,8 @@ Forecasts for the next 7–14 days are generated and displayed.
 
 Key metrics (MAE, RMSE, MAPE) are calculated to assess prediction accuracy.
 
-# 📂 Project Structure
+
+## Project Structure
 
 stock market app/
 │
@@ -75,6 +76,11 @@ stock market app/
 ├── requirements.txt # Dependencies
 ├── README.md # Project documentation
 └── time/ # Virtual environment
+
+
+
+
+
 
 # ⚙️ Installation & Setup
 1) Clone the repository:
