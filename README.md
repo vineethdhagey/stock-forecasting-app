@@ -3,31 +3,32 @@ An interactive Streamlit web app for forecasting stock prices using multiple mod
 The app fetches live historical data using Yahoo Finance, performs preprocessing, trains models, and provides forecasted stock prices along with evaluation metrics (MAE, RMSE, MAPE).
 
 # 🚀 Features
-Multi-model support: Choose between ARIMA, SARIMA, Prophet, and LSTM for forecasting.
+**Multi-model support:** Choose between ARIMA, SARIMA, Prophet, and LSTM for forecasting.
 
-Forecast horizon: Predict stock prices for the next 7–14 days.
+**Forecast horizon:** Predict stock prices for the next 7–14 days.
 
-Interactive Interface: Built with Streamlit for an easy and smooth user experience.
+**Interactive Interface:** Built with Streamlit for an easy and smooth user experience.
 
-Evaluation Metrics: View model performance with MAE, RMSE, and MAPE.
+**Evaluation Metrics:** View model performance with MAE, RMSE, and MAPE.
 
-Visual Forecasts: Last 30 days of actual data + future predictions.
+**Visual Forecasts:** Last 30 days of actual data + future predictions.
 
-Data Source: Pulls 5 years of daily data directly from Yahoo Finance.
+**Data Source:** Pulls 5 years of daily data directly from Yahoo Finance.
 
-Stocks included:
+**Stocks included:**
+
 1)Apple (AAPL)
 
 2)Tesla (TSLA)
 
-JPMorgan (JPM)
+3)JPMorgan (JPM)
 
-Currency: All prices are displayed in USD.
+**Currency:** All prices are displayed in USD.
 
 # 🛠️ Tech Stack
-Frontend: Streamlit
+**Frontend:** Streamlit
 
-Models:
+**Models:**
 
 1) ARIMA & SARIMA: statsmodels
 
@@ -35,28 +36,28 @@ Models:
 
 3) LSTM: TensorFlow/Keras
 
-Data: yfinance for historical stock data
+**Data:** yfinance for historical stock data
 
-Visualization: matplotlib
+**Visualization:** matplotlib
 
 # 🔄 How It Works
-Data Collection:
+**Data Collection:**
 
 The app automatically fetches 5 years of historical daily stock price data from Yahoo Finance.
 
-Preprocessing:
+**Preprocessing:**
 
 Missing values are filled, and data is resampled to a daily frequency.
 
-Model Training:
+**Model Training:**
 
 The selected model (ARIMA/SARIMA/Prophet/LSTM) is trained using this 5-year dataset.
 
-Forecasting:
+**Forecasting:**
 
 Forecasts for the next 7–14 days are generated and displayed.
 
-Evaluation:
+**Evaluation:**
 
 Key metrics (MAE, RMSE, MAPE) are calculated to assess prediction accuracy.
 
