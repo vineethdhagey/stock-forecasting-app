@@ -108,8 +108,7 @@ stock market app/
    ```bash
    pip install -r requirements.txt
     ```
-
-**4) Run the app**
+4) Run the app
     
    ```bash 
    streamlit run app.py
