@@ -63,6 +63,7 @@ Key metrics (MAE, RMSE, MAPE) are calculated to assess prediction accuracy.
 
 
 # 📂 Project Structure
+
 stock market app/
 │
 ├── app.py
@@ -79,8 +80,8 @@ stock market app/
 # ⚙️ Installation & Setup
 1) Clone the repository:
 
-git clone https://github.com/dvinzzzz/stock-forecasting-app.git
-cd stock-forecasting-app
+ git clone https://github.com/dvinzzzz/stock-forecasting-app.git
+ cd stock-forecasting-app
 
 2) Create and activate a virtual environment
 
