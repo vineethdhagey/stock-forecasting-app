@@ -62,31 +62,26 @@ Forecasts for the next 7–14 days are generated and displayed.
 Key metrics (MAE, RMSE, MAPE) are calculated to assess prediction accuracy.
 
 
-## Project Structure
+## 📁 Project Structure
+
+```
 
 stock market app/
 │
-
 ├── app.py # Main Streamlit app
-
 ├── data_utils.py # Data fetching & preprocessing
-
 ├── prophet_model.py # Prophet forecasting model
-
 ├── lstm_model.py # LSTM forecasting model
-
 ├── arima_model.py # ARIMA forecasting model
-
 ├── sarima_model.py # SARIMA forecasting model
-
 ├── b.jpg # Background image
-
 ├── requirements.txt # Dependencies
-
 ├── README.md # Project documentation
-
 └── time/ # Virtual environment
 
+```
+
+---
 
 
 
