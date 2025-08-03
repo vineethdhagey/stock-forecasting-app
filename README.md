@@ -95,21 +95,26 @@ stock market app/
  cd stock-forecasting-app
 ```
 
-2) Create and activate a virtual environment
+**2) Create and activate a virtual environment**
 
+   ```bash
     Windows:
    python -m venv venv
 
    venv\Scripts\activate
-   
-4) Install dependencies
+   ```
+**3) Install dependencies**
 
+   ```bash
    pip install -r requirements.txt
-   
-5) Run the app
+    ```
 
+**4) Run the app**
+    
+   ```bash 
    streamlit run app.py
-   
+   ```
+
 # 🖼️ Screenshots
 
 <img width="1480" height="412" alt="Screenshot 2025-08-03 182930" src="https://github.com/user-attachments/assets/1b2d6a68-a81f-42d8-90dc-e2a6b7ab1d43" />
