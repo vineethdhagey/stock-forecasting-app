@@ -115,7 +115,9 @@ stock market app/
    
 # 🖼️ Screenshots
 
-
+<img width="1480" height="412" alt="Screenshot 2025-08-03 182930" src="https://github.com/user-attachments/assets/1b2d6a68-a81f-42d8-90dc-e2a6b7ab1d43" />
+<img width="1817" height="795" alt="Screenshot 2025-08-03 182912" src="https://github.com/user-attachments/assets/63c041ed-8250-4608-9c9a-e4e3d7454f23" />
+<img width="1817" height="569" alt="Screenshot 2025-08-03 182807" src="https://github.com/user-attachments/assets/c08c4cee-b417-4c5c-8e75-697b659c6ad2" />
 
 
 
