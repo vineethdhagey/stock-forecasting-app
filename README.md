@@ -91,7 +91,7 @@ stock market app/
 **1) Clone the repository:**
  
  ```bash
- git clone https://github.com/dvinzzzz/stock-forecasting-app.git
+ git clone https://github.com/vineethdhagey/stock-forecasting-app.git
  cd stock-forecasting-app
 ```
 
